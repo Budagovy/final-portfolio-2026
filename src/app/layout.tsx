@@ -1,0 +1,22 @@
+import type { Metadata } from "next";
+import { Google_Sans_Flex } from "next/font/google";
+import "./globals.css";
+
+const sans = Google_Sans_Flex({
+  subsets: ["latin"],
+  variable: "--font-sans",
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  title: "New site",
+  description: "[PLACEHOLDER]",
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en" className={sans.variable}>
+      <body>{children}</body>
+    </html>
+  );
+}

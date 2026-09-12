@@ -1,0 +1,6 @@
+{
+  "eyebrow": "[PLACEHOLDER]",
+  "headline": "The new hero goes here",
+  "note": "This slot is one full screen. Design the hero at 100vw by 100vh.",
+  "cta": { "label": "Placeholder link", "href": "#next" }
+}
